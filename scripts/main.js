@@ -1,10 +1,4 @@
-require(['twitter']);
-require(['facebook']);
-require(['email']);
-require(['copy']);
-require(['linked-in']);
-require(['facebook-messenger']);
-require(['highlight-share'], function () {
+require(['highlight-share','twitter','facebook','email','copy','linked-in','facebook-messenger'], function () {
 	const highlightShare = require('highlight-share');
 	const twitterSharer = require('twitter');
 	const facebookSharer = require('facebook');
